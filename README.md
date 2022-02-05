@@ -7,6 +7,11 @@ The present hour is highlighted in red. Past hours are highlighted in grey, and 
 
 When user clicks an hour block, they are able to write an event. To save the event, they can click on blue save button.
 
+
+
+## Work Scheduler
+![alt-text](https://github.com/geicibarham/work-scheduler-js/blob/main/assets/images/Screenshot%20(30).png)
+
 ## Credits
 
 https://www.w3schools.com/
