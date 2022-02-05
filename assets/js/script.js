@@ -24,6 +24,8 @@ var hours = ['8am', '9am', '10am', '11am', '12pm', '13pm', '14pm', '15pm', '16pm
 hours.forEach(function (hour) {
     var currentHourEl = $("#" + hour);
     
+    console.log(currentHourEl,parseInt(hour));
+
     if (parseInt(hour) < currentHourMoment) {
         currentHourEl.attr("class", "form-control past")
     } else if (parseInt(hour) == currentHourMoment) {
